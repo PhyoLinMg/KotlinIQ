@@ -1,6 +1,6 @@
 You have a browser of one tab where you start on the homepage and you can visit another url, get back in the history number of steps or move forward in the history number of steps.
 
-Implement the BrowserHistory class:
+Implement the BrowserHistory class with Kotlin:
 
 - `BrowserHistory(string homepage)` Initializes the object with the homepage of the browser.
 - `void visit(string url)` Visits url from the current page. It clears up all the forward history.
@@ -41,4 +41,4 @@ browserHistory.forward(2);                // You are in "linkedin.com", you cann
 
 browserHistory.back(2);                   // You are in "linkedin.com", move back two steps to "facebook.com" then to "google.com". return "google.com"
 
-browserHistory.back(7);                   // You are in "google.com", you can move back only one step to "leetcode.com". return "leetcode.com"\
+browserHistory.back(7);                   // You are in "google.com", you can move back only one step to "leetcode.com". return "leetcode.com"
